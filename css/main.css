@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+body {
+	font-family: "Cuprum";
+	font-size: 200%;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.navbar-brand {
+	font-size: 150%;
+}
+
+.top-first {
+	background-color: black;
+	opacity: 0.3;
+}
+
+.text {
+	color: white;
+	padding-top: 25%;
+	padding-right: 5%;
+}
+.text h1 {
+	font-size: 300%;
+}
+
+
+.top-win {
+	height: 100vh;
+}
+
+.whoiam {
+	background-color: #3c3c3c;
+	color: #9c9c9c;	
+/*	padding-top: 5%;
+	height: 60vh;*/
+}
+
+.whoiam h4{
+	line-height: 140%;
+}
+
+.first 	{
+	background-color: white;
+	margin-top: 3%;
+}
+.whoiam img {
+	max-width: 70%;
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.goto-top {
+	z-index: 999;
+    position: fixed; 
+    bottom: 15px; 
+    right: 15px;
+ }
+ .fa-chevron-up {
+ 	color: gray;
+ }
+
+.kontakt {
+	background-color: #3c3c3c;
+	color: #9c9c9c;	
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.kontakt i{
+	color: #9c9c9c;	
+	font-size: 150%;
+	padding-top: 5%;
+}
+
+.kontakt a{
+	text-decoration: none;
+}
+
+.kontakt a:hover{
+	font-weight: bold;
+}
+
+.feedback{
+	background-color: white;
+	color: #3c3c3c;
+	margin-top: 3%;
+}
+
+.feedback h5{
+	line-height: 140%;
+	font-size: 90%;
+
+}
+
+.feedback img {
+	max-width: 100%;
+	margin: 5px;
+}
+
+.why-me {
+	padding: 2%;
+	all
+}
+
+.why-me h1 {
+	font-size: 400%;
+}
+
+.why-me h4 {
+	line-height: 140%;
+}
+
+.service h1,h2,h3,li {
+	font-weight: bold;
+}
+
+.service li {
+	font-size: 130%;
+}
+
+.footer {
+	background-color: #3c3c3c;
+	color: #9c9c9c;
+}
+
+.footer i{
+	color: #9c9c9c;
+	font-size: 100%;
+	margin-right: 10px;
+}
+
+
+
+$('body').scrollspy({ target: '#navbar-1' })
