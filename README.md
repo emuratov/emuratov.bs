@@ -1,2 +1,0 @@
-# emuratov.bs
-First site
