@@ -2,21 +2,49 @@
      jQuery Mosaic v0.131
      https://github.com/tin-cat/jquery-mosaic
  */
-
-@import url('https://fonts.googleapis.com/css?family=Marck+Script');
-
-
-
-body {
-	font-family: 'Marck Script', cursive;
-	font-size: 150%;
-	background-color:#333;
-	color:#fff;
+body {	
+	background-color:#333; 
+/*	color:#fff;*/
 }
-.container { margin:30px auto;}
-h1 { text-align:center; margin-bottom:30px;}
 
+ .fa-hand-o-left {
+ 	color: gray;
+ }
+
+.container {
+	 margin:2% auto;
+
+}
+.container h1 {
+	 text-align:center;
+}
+
+.fa{
+	padding-left: 5%;
+}
+
+.container i {
+	color: #9c9c9c;	
+	margin-right: 25%;
+	font-size: 200%;
+	direction: none;
+	color: white;
+}
+
+.goto-top {
+	z-index: 999;
+    position: fixed; 
+    bottom: 15px; 
+    right: 15px;
+ }
+
+ .fa-chevron-up {
+ 	color: gray;
+ }
+
+/*gallery*/
 .mosaic {
+	padding-top: 2%;
     width: 100%;
     float: left;
     -webkit-box-sizing: border-box;
@@ -73,28 +101,3 @@ h1 { text-align:center; margin-bottom:30px;}
 .mosaic > .item > .overlay > .texts h2 {
 	font-size: 13pt;
 }
-
-.goto-top {
-	z-index: 999;
-    position: fixed; 
-    bottom: 15px; 
-    right: 15px;
- }
- .goto-top a {
-	font-size: 75%;
- }
-  .fa-chevron-up {
- 	color: gray;
- } 	
- .container	a {
- 	margin-top: 0;
- 	color: white;
- 	font-size: 150%;
- 	margin-right: 22%;
- 	margin-left: 5%;
- }
- 
- #name {
- 	font-size: 200%;
-
- }
