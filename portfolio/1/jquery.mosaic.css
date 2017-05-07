@@ -1,0 +1,100 @@
+/*
+     jQuery Mosaic v0.131
+     https://github.com/tin-cat/jquery-mosaic
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+
+
+body {
+	font-family: 'Marck Script', cursive;
+	font-size: 150%;
+	background-color:#333;
+	color:#fff;
+}
+.container { margin:30px auto;}
+h1 { text-align:center; margin-bottom:30px;}
+
+.mosaic {
+    width: 100%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.mosaic > div,
+.mosaic > a,
+.mosaic > img {
+	float: left;
+}
+
+.mosaic > .item {
+	position: relative;
+}
+
+.mosaic > .item.withImage {
+	background-size: cover;
+}
+
+.mosaic > .item > .overlay {
+	opacity: 0;
+	position: absolute;
+	left: 0px; right: 0px; top: 0px; bottom: 0px;
+	transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+}
+
+.mosaic > .item:hover > .overlay {
+	opacity: 1;
+}
+
+.mosaic > .item > .overlay > .texts {
+	position: absolute;
+	left: 0px; right: 0px; bottom: 0px;
+	padding: 15pt;
+	background: rgba(0, 0, 0, 0.2);
+	color: #fff;
+}
+
+.mosaic > .item > .overlay > .texts h1,
+.mosaic > .item > .overlay > .texts h2 {
+	margin: 0;
+	line-height: 1.3em;
+}
+
+.mosaic > .item > .overlay > .texts h1 {
+	font-size: 17pt;
+}
+
+.mosaic > .item > .overlay > .texts h2 {
+	font-size: 13pt;
+}
+
+.goto-top {
+	z-index: 999;
+    position: fixed; 
+    bottom: 15px; 
+    right: 15px;
+ }
+ .goto-top a {
+	font-size: 75%;
+ }
+  .fa-chevron-up {
+ 	color: gray;
+ } 	
+ .container	a {
+ 	margin-top: 0;
+ 	color: white;
+ 	font-size: 150%;
+ 	margin-right: 22%;
+ 	margin-left: 5%;
+ }
+ 
+ #name {
+ 	font-size: 200%;
+
+ }
