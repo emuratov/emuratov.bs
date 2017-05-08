@@ -50,9 +50,9 @@ body {
 	line-height: 140%;
 }
 
-.port{
-	min-height: 100vh;	
-}
+	/*.port{
+		min-height: 100vh;	
+	}*/
 
 #carousel-example-generic {
 	margin-right: 5%;
