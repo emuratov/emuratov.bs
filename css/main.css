@@ -17,7 +17,7 @@ body {
 
 .top-first {
 	background-color: black;
-	opacity: 0.1;
+	opacity: 0.5;
 }
 .top-first h1{
 	z-index: 99999;
@@ -25,13 +25,15 @@ body {
 
 .text {
 	color: white;
-	padding-top: 25%;
-	padding-right: 5%;
+	padding-top: 10%;
+	padding-left: 10%;
 }
 .text h1 {
-	font-size: 230%;
+	font-size: 300%;
 }
-
+.name {
+	padding-left: 4%;
+}
 
 .top-win {
 	height: 100vh;
